@@ -198,3 +198,29 @@ margin-left: 410px;
 .hr1{
 width: 70%;
 }
+.s1{
+width: 60%;
+height: 700px;
+margin-left: 385px;
+margin-top: 70px;
+display: flex;
+justify-content: space-around;
+}
+.s1 div p{
+color: white;
+}
+.s1 div{
+height: 350px;
+width: 200px;
+position: relative;
+display: inline-block;
+}
+.s1 div img{
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+    .s1 div img:hover{
+        border-radius: 20px;
+        transform: scale(1.1);
+}
+  
