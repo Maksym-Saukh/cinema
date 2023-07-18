@@ -52,7 +52,7 @@ padding: 20px;
 }
 main{
 width: 100%;
-height: 1000px;
+height: 1900px;
 background-color: #231d41;
 }
 #slider {
@@ -200,7 +200,7 @@ width: 70%;
 }
 .s1{
 width: 60%;
-height: 700px;
+height: 400px;
 margin-left: 385px;
 margin-top: 70px;
 display: flex;
@@ -223,4 +223,36 @@ display: inline-block;
         border-radius: 20px;
         transform: scale(1.1);
 }
-  
+.md2 h2{
+    color: white;
+    margin-left: 410px;
+}
+.md2 hr{
+    color: white;
+    width: 70%;
+}
+.s2{
+    width: 60%;
+    height: 400px;
+    margin-left: 385px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    }
+    .s2 div p{
+    color: white;
+}
+    .s2 div{
+    height: 350px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+    .s2 div img{
+        border-radius: 20px;
+        transition: transform 0.3s;
+}
+        .s2 div img:hover{
+            border-radius: 20px;
+            transform: scale(1.1);
+}
