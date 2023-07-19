@@ -19,3 +19,20 @@
       }
     });
 
+
+    function checkAndSave() {
+
+        var form1Value = document.getElementById("form1").value;
+        var form2Value = document.getElementById("form2").value;
+        var form3Value = document.getElementById("form3").value;
+        var form4Value = document.getElementById("form4").value;
+
+        if (form1Value === '' || form2Value === '' || form3Value === '' || form4Value === '') {
+            alert("Помилка! Заповніть усі 4 форми.");
+        } else {
+            alert("Інформація збережена");
+        }
+    }
+
+
+
