@@ -119,9 +119,9 @@ height: 300px;
 margin-left: 300px;
 }
 .sd1 img{
-    margin-left: 300px;
     margin-top: 50px;
     border-radius: 10px;
+
 }
 .sd1 button{
 background-color: white;
@@ -131,11 +131,40 @@ width: 120px;
 height: 40px;
 position: relative;
 top: 30px;
-right: 160px;
+right: -40px;
 font-family: 'Ubuntu', sans-serif;
 }
 .sd2{
 width: 70%;
 height: 100%;
-margin-left: 70px;
+margin-left: 570px;
+color: white;
+position: relative;
+bottom: 265px;
+font-size: 19px;
+}
+.f1{
+display: grid;
+width: 100px;
+position: relative;
+bottom: 1030px;
+left: 750px;
+}
+.f1 input{
+width: 200px;
+height: 30px;
+border-radius: 30px;
+border: 0px;
+margin-top: 54px;
+}
+.b2{
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    right: -90px;
+    font-family: 'Ubuntu', sans-serif;
 }
