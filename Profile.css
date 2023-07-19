@@ -147,8 +147,6 @@ font-size: 19px;
 display: grid;
 width: 100px;
 position: relative;
-bottom: 1030px;
-left: 750px;
 }
 .f1 input{
 width: 200px;
@@ -167,4 +165,10 @@ margin-top: 54px;
     top: 30px;
     right: -90px;
     font-family: 'Ubuntu', sans-serif;
+}
+.sd3{
+position: relative;
+bottom: 1030px;
+left: 750px;
+width: 200px;
 }
