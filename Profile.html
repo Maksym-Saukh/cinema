@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+    <header>
+        <div class="hd"><img src="./Img/logo.png" alt="" srcset=""></div>
+        <div class="hd2">
+            <a href="#">Головна</a>
+            <a href="">Новинки</a>
+            <a href="">Про нас</a>
+            <a href="">Контакти</a>           
+        </div>
+        <div class="hd3">
+            <img src="./Img/bell.png" alt="">
+            <img src="./Img/user.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="md1">
+            <h2 id="Profile">Профіль</h2>
+            <hr>
+          </div>
+          <section>
+            <div class="sd1">
+                <img src="/Img/Profile1.jpg" alt="" id="currentImage">
+                <input type="file" id="fileInput" style="display:none;">
+                <button onclick="openFileExplorer()">Загрузити фото</button>
+            </div>
+            <div class="sd2">
+                <p>Login:</p>
+                <br>
+                <p>Email:</p>
+                <br>
+                <p>Password:</p>
+                <br>
+                <p>About Yourself:</p>
+                <br>
+                <button class="b2" onclick="checkAndSave()">Зберегти</button>
+            </div>
+            <div class="sd3">
+                <form action="" class="f1">
+                    <input type="text" id="form1">
+                    <input type="text" id="form2">
+                    <input type="password" id="form3">
+                    <input type="text" id="form4">
+                </form>
+            </div>
+          </section>
+          
+    </main>
+    <footer>
+        <div class="fd"><img src="/Img/logo.png" alt=""></div>
+        <div class="fd2">
+          <a href="">Головна</a>
+          <a href="">Новинки</a>
+          <a href="/aboutpage.html.hed">Про нас</a>
+          <a href="">Контакти</a>
+        </div>
+        <div class="fd3">
+          <img src="/Img/instagram.png" alt="">
+          <img src="/Img/telegram.png" alt="">
+          <img src="/Img/viber.png" alt="">
+          <img src="Img/vkontakte.png" alt="">
+        </div>
+      </footer>
+      <script src="Profile.js"></script>
+</body>
+</html>
